@@ -96,19 +96,3 @@ L2 regularization penalizes large values quadratically — its gradient shrinks 
 
 ---
 
-## Running the Code
-
-```bash
-git clone https://github.com/yourusername/self-pruning-neural-network
-cd self-pruning-neural-network
-
-pip install torch torchvision matplotlib numpy
-
-python self_pruning_net.py
-```
-
-CIFAR-10 downloads automatically on first run (~170MB). GPU recommended — training takes ~25-30 minutes on a T4.
-
-Alternatively, open `Self_pruning_net.ipynb` directly in Google Colab with a T4 GPU runtime.
-
----
