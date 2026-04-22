@@ -80,7 +80,7 @@ Gate parameters are trained at a higher learning rate (5e-3) than regular weight
 
 ## Gate Value Distribution
 
-![Gate Value Distribution](Gate_Value_Distribution_.png)
+![Gate Value Distribution](Gate_Value_Distribution.png)
 
 **Top row (log scale):** Full distribution of all 828,032 gate values per model. The dominant spike near 0 confirms gates are being successfully driven to zero. As λ increases, bars away from 0 become increasingly sparse — fewer and fewer gates survive.
 
